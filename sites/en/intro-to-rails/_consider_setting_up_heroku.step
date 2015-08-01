@@ -1,0 +1,8 @@
+div :class => "deploying" do
+  h1 "Setting up Heroku"
+  blockquote do
+    message "Before moving on, let's set up heroku for future deploys!"
+    link '_deploying_to_heroku_for_the_first_time'
+  end
+end
+
