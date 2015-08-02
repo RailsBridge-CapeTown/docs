@@ -11,8 +11,9 @@
 * [Diagrams (Git, MVC, REST)  ](diagrams)
 
 ### Teacher Training
-* [Original Teacher Training](teacher_training)
-* [Newer Teacher Training (1/16/13)](more_teacher_training)
+* [Teacher Training Deck](more_teacher_training)
+* [Teacher Cheat Sheet](teacher_cheat_sheet) - A TL;DR version of the deck
+* [TA Cheat Sheet](ta_cheat_sheet) - A doc geared especially for first-time TAs
 
 # Materials for Organizers
 
@@ -27,7 +28,7 @@ Download, then open up the index.html file in a text editor. Edit pages 0
 you're good to go. (Run it locally for the presentation itself.)
 
 
-Or make a presentation in the format of your choice. Powerpoint, Keynote, your own [reveal.js](http://lab.hakim.se/reveal-js/)deck &mdash; follow your heart!
+Or make a presentation in the format of your choice. Powerpoint, Keynote, your own [reveal.js](http://lab.hakim.se/reveal-js/) deck &mdash; follow your heart!
 
 # Other?
 See the Table of Contents for a full list of materials.

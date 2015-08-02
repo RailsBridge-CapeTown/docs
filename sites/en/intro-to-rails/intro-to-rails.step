@@ -12,7 +12,7 @@ allow users to:
 
 You've sketched up an initial screenshot of what you want it to look like:
 
-![screenshot](img/finished_app.png)
+![Browser window with topic titles that can be voted on, ordered by number of votes](img/finished_app.png)
 
 What topics do you want to vote on? What races to run in? What theme to have for a party?
 
@@ -24,7 +24,7 @@ When you have completed today's goal of getting the basic
 application online you should understand:
 
 * Basic Ruby syntax
-* How to try your Ruby code
+* How to try your Ruby code (IRB)
 * How to go from requirements to a new working Rails application
 * How to get your application online
 * The basic tools a Ruby on Rails developer uses (source control, editor, console, local server)
@@ -42,35 +42,35 @@ day. :)
 
 We're going to be working with:
 
-* Ruby 1.9.3 or 2.0.0 installed via RVM (Mac or Linux) or RailsInstaller (Mac or Windows)
-* Rails 4.0.x
-* bundler
-* sqlite
-* the text editor of your choice
+* Ruby 2.1 or 2.2 installed via RVM (Mac or Linux) or RailsInstaller (Windows)
+* Rails 4.2.x
+* Bundler
+* SQLite
+* The text editor of your choice
 
 Everything should be set up the night before during our
 install-fest. Please ensure you have everything working _before_ you
 show up for RailsBridge on Saturday.
 
-### Working Effectively and Efficiently
+You can verify that you have everything working by trying this out in your terminal:
 
-We highly recommend you do the following:
+<div class="console"><pre>
+$ irb
+>> 1 + 2
+=> 3
+>> require "active_support"
+=> true
+>> exit
+$
+</pre>
+</div>
 
-* Bring up your terminal and open 2 tabs:
-  * One is for regular terminal stuffs.
-  * One will be for irb (aka rails console). We'll explain later.
-* Open your browser fresh or hide any windows you already have open.
-  * Bring up one window with two tabs
-    * One for this content
-    * One for interacting with your app.
-* Open your text editor and don't close it.
-* Hide all extra applications. Turn off Twitter, Facebook and all other distractions.
+If you can do that, you are probably good to go.
+MARKDOWN
 
-By minimizing the number of things you interact with, you reduce the
-amount of time spent switching between them and the context lost as
-you work through the lessons. Having 50 tabs open in your web
-browser gets confusing.
+insert 'working_effectively_and_efficiently'
 
+message <<-MARKDOWN
 ### Format
 
 Each lesson will look like this:

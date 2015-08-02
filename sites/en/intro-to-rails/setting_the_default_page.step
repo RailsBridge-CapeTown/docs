@@ -36,7 +36,7 @@ root 'topics#index'
 explanation {
 
  message <<-MARKDOWN
-  * `root 'topics#index'` is a rails route that says the default
+  * `root 'topics#index'` is a Rails route that says the default
     address for your site is `topics#index`. `topics#index` is the topics
     list page (the topics controller with the index action).
   * Rails routes control how URLs (web addresses) get matched with
@@ -69,7 +69,7 @@ explanation {
 
   In Rails 4, you can also get this information on your site in development. Go to <a href="http://localhost:3000/rails/info">http://localhost:3000/rails/info</a> and you'll see something like this:
 
-  <img src='img/rails4_rails_info_routing.png'>
+  <img src='img/rails4_rails_info_routing.png' alt='Screenshot of browser-based Rails routing info page'>
 
   You'll also see that table in Rails 4 whenever you try to access an invalid route (try <a href="http://localhost:3000/sandwich">http://localhost:3000/sandwich</a>). You'll see something like the picture below. Look at how the error page tries to be helpful: it tells you that the problem was with **routing** specifically, and it shows you the routes it *does* know about.
 
@@ -79,7 +79,7 @@ explanation {
 
   Now you can have a look at the paths that are available in your app.
   Let's try looking at one of the topics routes we just generated.
-  Open up your rails console and play:
+  Open up your Rails console and play:
 
     $ rails console
     >> app.topics_path

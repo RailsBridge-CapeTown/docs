@@ -1,3 +1,5 @@
+<!-- next_step "arrays" -->
+
 # Loops
 
 Computers are like robots. They are good at doing things over and over and over and over again.
@@ -6,7 +8,7 @@ A LOOP is when we ask a program to do something many times.
 
 # loop
 
-If you want something to keep going forever, use a special loop called `loop`. 
+If you want something to keep going forever, use a special loop called `loop`.
 
     loop do
       puts "Hello"
@@ -18,7 +20,7 @@ To stop it, hold down the CONTROL key and press the C key.
 
 # One Infinite Loop
 
-![One Infinite Loop](one-infinite-loop.jpg)
+![One Infinite Loop](img/one-infinite-loop.jpg)
 
 *Fun Fact:* The address of Apple HQ is
 
@@ -96,7 +98,7 @@ Let's unpack this:
 
 Remember this poem?
 
-    1 potato 
+    1 potato
     2 potato
     3 potato
     4
@@ -115,9 +117,17 @@ Try this:
       puts count.to_s + " potato"
     end
 
-`|count|` means 
+`|count|` means
 
 > "the `count` variable points to the current value of the counter"
+
+# `times` output
+
+    0 potato
+    1 potato
+    2 potato
+    3 potato
+    4
 
 Whoops! What's wrong?
 
@@ -167,11 +177,11 @@ This is fairly complicated, so let's stop here and make sure to understand every
 
     count = 1
 
-creates a *variable* named `count` and sets its value to `1`. 
-    
+creates a *variable* named `count` and sets its value to `1`.
+
     while count <= 4
 
-starts a loop and immediately compares `count` to `4`. 
+starts a loop and immediately compares `count` to `4`.
 
 `1` is less than `4`, so the expression is `true`, so we continue with the loop.
 
@@ -193,7 +203,7 @@ goes *back to the `while` line* and checks again
 
     while count <= 4
 
-compares `count` to `4`. 
+compares `count` to `4`.
 
 `2` is less than `4`, so the expression is `true`, so we continue with the loop.
 

@@ -29,11 +29,12 @@ We're making tech more diverse and more welcoming!
 There are a few different RailsBridge curricula:
 
 * Intro to Rails (a.k.a. "Suggestotron")
-* Intermediate Rails
+* Job Board (no scaffolds)
+* Message Board (doesn't tell you what to type)
 * Intro to Ruby
 * Front End (HTML, CSS, and a tiny bit of JavaScript).
 
-First, we get all the necessary technologies onto the students' computers (the installfest).
+First, we get all the necessary technologies onto the students' computers (the Installfest).
 
 The next day we break into small groups and work through the curriculum.
 
@@ -67,14 +68,18 @@ We've made three quasi-arbitrary categories of ways to make your class awesome:
 ### We want our students to feel:
 * socially comfortable
 * technically capable
-* like you know what's going on (even if you don't feel like you do).
+* like you are approachable and can help solve their problems
 
 # Discussion: Social Comfort
 
 #### Imagine:
-* You're in a group of strangers
-* You're trying to do something that sounds really difficult
-* You've tried some coding tutorials online but got lost / bored / confused.
+* You're trying to do something difficult
+* You're in a group of strangers, many of whom know how to do it better than you
+* You've tried before but got lost or bored or confused
+* You don't feel like you can articulate your thoughts and questions
+* You don't know the right names for anything
+
+#### When was the last time you felt this way?
 
 #### How can we help make this easier?
 #### How can you help people feel socially comfortable?
@@ -83,18 +88,17 @@ We've made three quasi-arbitrary categories of ways to make your class awesome:
 # Social Comfort (Ideas)
 
 #### Introductions
-* Include name, profession, why are you here, and something silly.
+* Include name, profession, why are you here / goals for today's class, and something silly.
 * Don't rush, even if you have a big class.
 * If someone joins the class late, ask them to introduce themselves.
 
 # Social Comfort (More Ideas)
 #### Try to suppress your (understandable) culturally-influenced sexism
 * Don't hit on people. No sexual advances. None. Even at the after-party.
-* Don't make sexist jokes. Or racist, classist, or ableist jokes. Call people out if they do.
+* Don't make sexist jokes. Or racist, classist, or ableist jokes. Call people out if they do. A simple "That's not funny" and moving on quickly with the conversation will often suffice.
 * Don't make gender-based generalizations ("Women are better at X, because ...")
 * Don't make references to people's bodies or state your opinion of them.
 * Don't use slurs.
-* Don't treat women as delicate flowers; do treat them like normal people.
 
 # Discussion: Technical Capability
 ### How can you help people feel technically capable?
@@ -123,7 +127,7 @@ We've made three quasi-arbitrary categories of ways to make your class awesome:
 * Students have diverse backgrounds. Appreciate this fact.
 * If they aren't getting a concept, avoid anything that might shame them.
 * Don't be surprised when someone hasn't heard of something before.
-* Don't grab anyone's keyboard. Avoid taking over unless you think it's *really* necessary. Ask before you do. "Mind if I drive for a sec?"
+* Don't grab anyone's keyboard. Avoid taking over unless you think it's *really* necessary. Ask before you do. "Mind if I drive for a sec?" But really, don't.
 
 # Technical Capability (Even More Ideas)
 #### Walk the Middle Path
@@ -183,7 +187,7 @@ Talk about what problems you might anticipate, and what to do about them.
 
 # Student Comprehension (Some Ideas)
 * Pay attention to body language.
-* People ask questions most often when they are actively processesing material. If they aren't, it might be that the material is too easy or hard. Try to figure out which it is!
+* People ask questions most often when they are actively processing material. If they aren't, it might be that the material is too easy or hard. Try to figure out which it is!
 
 #### Calling on people
 * Calling on people makes the class more interactive and engaging, and less lecture-y.

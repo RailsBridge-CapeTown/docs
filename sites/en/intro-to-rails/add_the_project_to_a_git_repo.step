@@ -11,15 +11,17 @@ steps do
   step do
     console "git init"
 
-    message "It doesn't look like anything really happened, but 'git init' initialized its repository (repo) in a hidden directory called `.git`. You can see this by typing `ls -a` (list all files)."
+    message "It doesn't look like anything really happened, but `git init`
+initialized a new repository in a hidden directory called `.git`."
+    message "You can see this by typing `ls -a` (**l**i**s**t **a**ll files)."
   end
 
   step do
     console "git status"
 
     message "`git status` tells you everything git sees as modified, new, or missing."
-  message "The first time you run this, you should see a ton of stuff. That's because you've just started this app: every file is new!"
-  message "When you run this later on, you shouldn't see much of anything. That's because only a few files will be new (or have changed)."
+    message "The first time you run this, you should see a ton of stuff under `Untracked files`.. That's because you've just started this app: every file is new!"
+    message "When you run this later on, you shouldn't see much of anything. That's because only a few files will be new (or have changed)."
   end
 
   step do
@@ -41,10 +43,22 @@ steps do
   end
 
   step do
+    console "git status"
+
+    message "Now you should see a bunch of files listed under `Changes to be committed`."
+  end
+
+  step do
     console "git commit -m \"Added all the things\""
     message "`git commit` tells git to actually _do_ all things you've said you wanted to do."
     message "This is done in two steps so you can group multiple changes together."
     message "`-m \"Added all the things\"`  is just a shortcut to say what your commit message is. You can skip that part and git will bring up an editor to fill out a more detailed message."
+  end
+
+  step do
+    console "git status"
+
+    message "Now you should see something like `nothing to commit, working directory clean` which means you've committed all of your changes."
   end
 end
 

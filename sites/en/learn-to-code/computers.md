@@ -1,3 +1,5 @@
+<!-- next_step "objects" -->
+
 # What is a computer?
 
 * A smart box
@@ -16,7 +18,7 @@
 # The Terminal
 
 * the *TERMINAL* is a window into which you can talk directly to your computer
-![Shall we play a game?](wargames-terminal.jpg)
+![Shall we play a game?](img/wargames-terminal.jpg)
 
 # In The Beginning Was The Command Line
 
@@ -50,8 +52,6 @@
 * Input/Output
   * keyboard, mouse, touch screen, monitor
 
-bonus: [Von Neumann Machine]()
-
 # Computer Anatomy: Software
 
 * Operating System
@@ -65,7 +65,7 @@ Every piece of software on your computer is a PROGRAM.
 
 * a recipe is a collection of *ingredients* and *instructions*
 
-![Grandma's Cookie Recipe](cookie-recipe.gif)
+![Grandma's Cookie Recipe](img/cookie-recipe.gif)
 
 * a program is a collection of *data* and *code*
 

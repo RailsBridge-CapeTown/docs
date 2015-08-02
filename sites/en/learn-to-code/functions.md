@@ -1,3 +1,5 @@
+<!-- next_step "sinatra" -->
+
 # Functions
 
 * just like a VARIABLE is a name for a chunk of data
@@ -19,13 +21,17 @@ Here's a silly function:
 * `x + y` is the *body* of the function
   * also the *return value*
 
+Lab: write a `multiply` method and use it to multiply 123 * 456
+
 # Rant!!!
 
     def rant s
       s.upcase.gsub(" ", "") + "!!!"
     end
-    
+
     puts rant "i like pizza"
+
+Lab: use "rant" to rant about something really important!!!
 
 # Capitalize Just The First Character
 
@@ -33,7 +39,10 @@ Here's a silly function:
       s[0] + s[1,s.length]
     end
 
-    puts initial_cap("McElaney")
+    puts initial_cap("smith")
+    puts initial_cap("deniro")
+
+Lab: capitalize a few things
 
 # Titleize
 
@@ -44,7 +53,6 @@ Here's a silly function:
 * The funny `&:` means "send this message"
 * `map(&:capitalize)` means "send the message `capitalize` to every item in the array"
 
-
-# LAB: todo
+# LAB: titleize your favorite movies
 
 
