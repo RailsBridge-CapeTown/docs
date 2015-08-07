@@ -1,0 +1,28 @@
+situation "Deploy the application" do
+  step "Commit any pending changes to git" do
+    message "Heroku will only receive the files we've committed into our local git repository. So we need to make sure all changed files have been committed."
+    console "git status"
+    message "`git status` shows you any pending changes you've created. If it has no output, you're already ready to deploy! Otherwise..."
+
+    console <<-SHELL
+git add -A
+git commit -m "Some helpful message for your future self"
+    SHELL
+    message "Your commit message should reference whatever your outstanding changes are: something like 'added votes to the topics index'."
+  end
+
+  step "Push changes to heroku" do
+    console "git push heroku master"
+    message "This takes all changes you've committed locally and pushes them to heroku."
+  end
+
+  step "Run database migrations on Heroku" do
+    console "heroku run rake db:migrate"
+    message "This tells Heroku to run your migrations on its database, like running rake db:migrate locally. Heroku's database is separate from the one on your computer, which means it needs to be updated every time you make changes to the structure of your database.  It also means that you'll not see any of the data you entered into the sqlite3 database on your computer."
+  end
+
+  step "Visit your application" do
+    console "heroku open"
+    message "This opens the new application in your browser."
+  end
+end

@@ -104,6 +104,6 @@ explanation {
 
 }
 
-insert 'consider_deploying'
+insert 'consider_setting_up_heroku'
 
 next_step "voting_on_topics"

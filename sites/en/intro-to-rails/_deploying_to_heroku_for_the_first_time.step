@@ -1,0 +1,85 @@
+situation "Setup the application" do
+  step "Create a heroku application" do
+    console "heroku create"
+    message "`heroku create` registers a new application on heroku's system. You should see some output including your new app's URL."
+  end
+
+  step "Edit the Gemfile" do
+    important "Each application has its own `Gemfile`. Be sure you're opening the one inside your app's folder."
+
+    message "Heroku will run our application slightly differently than our development computer does, which requires us to make a small change to our `Gemfile`."
+
+    message "Open the file called `Gemfile` in Sublime Text, or your preferred editor, and find the line containing:"
+
+    source_code :ruby, <<-RUBY
+gem 'sqlite3'
+    RUBY
+
+    message "**Remove that line** and replace it with:"
+
+    source_code :ruby, <<-RUBY
+group :development, :test do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
+    RUBY
+
+    message "This tells Rails to use the gem `sqlite3` for the `development` and `test` groups and use the gems `pg` and `rails_12factor` for the `production` group."
+
+    message "We use groups with the `bundle install` command to decide which gems to install when: we often want to install different groups of gems on our local machine (your computer) and on the remote machine (in our case Heroku)."
+
+  end
+
+
+
+  step "Apply the Gemfile changes" do
+    console "bundle install --without production"
+    message "This tells Rails to install all the gems in the Gemfile except any in the `production` group."
+    message "Every time the Gemfile changes, you need to run ``bundle install`` for the changes to be processed. The processed version of the changes is stored in another file called ``Gemfile.lock``."
+  end
+
+  step "Commit the Gemfile changes" do
+    message "There are now changes to Gemfile and Gemfile.lock that need to be committed before we can push to heroku."
+    console <<-SHELL
+git add -A
+git commit -m "Changed Gemfile for Heroku"
+    SHELL
+  end
+end
+
+insert 'heroku_steps'
+
+explanation do
+  message <<-MARKDOWN
+  First, we had to do some work to make Heroku happy with our application. This required updating the Gemfile and bundling.
+
+  * The Gemfile is a list of all the Ruby libraries your application needs.
+    What we've declared here is that we want to use the `sqlite3` library
+    while we're developing on our computer (the development group) but when
+    deploying to heroku (the production group) we want to use the `pg` library,
+    which is made for the type of database that heroku uses.
+
+  * Bundler is how Ruby projects keep track of the gems that they use. We told
+    bundler what we wanted to use in the `Gemfile`, now we need to make sure those
+    gems are installed. Since we don't have the type of database heroku does, we
+    skip the production gems. Don't worry though! Bundler still logs them so
+    Heroku will install them when they get your code.
+  MARKDOWN
+
+  message "The first time you deploy to Heroku, you need to set up your application with the gems Heroku needs to run it. Your changes are committed to git, so you will only need to do this once. Every other time you deploy to Heroku you will only need to commit your code changes to git (and run any migrations for your database if you have any)."
+
+  message "You should be able to deploy your application any time it's in a good, working state. Your typical workflow will look like:"
+  img src: "img/workflow.png", alt: "workflow", style: "border: none"
+  ol do
+    li { message "Add or change some code" }
+    li { message "Commit your changes (`git commit`)" }
+    li { message "(repeat)" }
+  end
+  message "Any time your changes are committed, you should feel free to `git push heroku master` and boom! Your changes are live!"
+end
+
+insert "glossary"
