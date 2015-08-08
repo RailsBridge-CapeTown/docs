@@ -82,6 +82,8 @@
 ### Become a developer! :)
 
 <!SLIDE>
+# Go, go, go! :)
+
 ### Lab computer?
 ### Go to [rbcpt.org/uct](http://rbcpt.org/uct/)
 ---
