@@ -24,7 +24,7 @@
 
 ### We want to make it more betterer
 ### Make notes as you go along
-#### Some things we've added: extra credit; diagrams; sponsors; breaks; overview; glossary; resources page; lightning talks
+#### Some things we've added: extra credit; diagrams; breaks; glossary; resources page; lightning talks
 
 
 <!SLIDE bullets>
@@ -79,6 +79,11 @@
 ### [rbcpt.org/resources](http://rbcpt.org/resources/)
 ### Learn more about Ruby or Rails
 ### Do another RailsBridge
-### Become a developer? :)
+### Become a developer! :)
 
-# [rbcpt.org/install](http://rbcpt.org/install/)
+<!SLIDE>
+### Lab computer?
+### Go to [rbcpt.org/uct](http://rbcpt.org/uct/)
+---
+### Laptop?
+### Go to  [rbcpt.org/install](http://rbcpt.org/install/)
