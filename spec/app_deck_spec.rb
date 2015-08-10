@@ -34,7 +34,7 @@ describe InstallFest do
 
       sites_dir = dir "sites"  do
           dir "meals" do
-            f = file "breakfast.deck.md", breakfast
+            file "breakfast.deck.md", breakfast
           end
       end
       Site.stub(:sites_dir) { sites_dir }
@@ -56,7 +56,7 @@ describe InstallFest do
       get! "/deck.js/jquery-1.7.2.min.js"
       assert { last_response.body.include?("jQuery v1.7.2 jquery.com")}
 
-      get! "/coderay.css"
+      get! "/assets/application.css"
       assert { last_response.body.include?("/* Code ray css */")}
     end
   end
