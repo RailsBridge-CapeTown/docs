@@ -1,58 +1,53 @@
-After Railsbridge
-=================
+### Learning Ruby
+* [TryRuby](http://tryruby.org/) a browser-based interactive tutorial in Ruby
+* ["Learning to Program" by Chris Pine](http://www.pragprog.com/titles/ltp2/learn-to-program-2nd-edition) - a beginner's programming book with lots of Ruby exercises.  (earlier version [online](http://pine.fm/LearnToProgram))
+* [Why's Poignant Guide](http://mislav.uniqpath.com/poignant-guide/book/chapter-1.html)
+* [Hackety Hack](http://hackety-hack.com/) a fun way for beginners to learn Ruby.
+* [Ruby Koans](http://rubykoans.com/) - a self-guided journey through topics in Ruby for beginners and experts alike
+* [Test-First Teaching](http://testfirst.org) - click on 'Learn Ruby'
+* [Ruby Warrior](https://github.com/ryanb/ruby-warrior) - write and refine some Ruby code to get your warrior to the top of a hazardous tower
+* [Ruby Quiz](http://www.rubyquiz.com) - a guided tour through the world of possibility; use your Ruby to build simple apps, games, and solve problems
+* [Why's Poignant Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/book/chapter-2.html) - A whimsical comic book that teaches you Ruby. Legendary in the community.
+* [Learn Ruby the Hard Way](http://ruby.learncodethehardway.org/) It's not actually hard. A great place to start if you're new to programming and want to learn with hands-on examples.
+* [PDX tech workshop](http://github.com/caylee-hogg/pdx-ruby-course) This are the slides from the ruby/rails workshop organized in Portland, OR by [PDXtech](http://pdxtechworkshops.org/)
 
-Learning more about Ruby
-------------------------
+### Learn about Rails
 
-* [Learn Ruby and Rails](http://www.learnrubyandrails.com/)
-* [Learn Ruby The Hard Way](http://ruby.learncodethehardway.org/)
-* [Pragmatic Bookshelf's Ruby and Rails books](http://pragprog.com/categories/ruby_and_rails)
-* [CodeAcademy's Ruby Track](http://www.codecademy.com/tracks/ruby)
-* [Ruby Koans](http://rubykoans.com/)
-* [Why's (Poignant) Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)
-* [Reddit (Ruby)](http://www.reddit.com/r/ruby)
-* [RubyTapas](http://www.rubytapas.com/) (screencasts)
+* [Rails Guides](http://guides.rubyonrails.org/) - the official how-to articles for Rails
+* [Rails API](http://railsapi.com) - online documentation
+* [Rails for Zombies](http://railsforzombies.org/) - a series of videos and browser-based Rails exercises
+* [Rails Tutorial](http://ruby.railstutorial.org/) - a tutorial that leads you through writing a Rails messaging app
 
-Learning more about Rails
--------------------------
+### Watch screen casts
 
-* [Pragmatic's Agile Development with Rails 4](http://pragprog.com/book/rails4/agile-web-development-with-rails-4) (book)
-* [Learn Rails](http://learn-rails.com/railsbridge) 
-* [Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html)
-* [Learn Ruby and Rails](http://www.learnrubyandrails.com/)
-* [Rails For Zombies](http://railsforzombies.org/) (tutorials)
-* [RailsCasts](http://www.railscasts.com) (screencasts)
-* [Peepcode: Ruby on Rails](https://peepcode.com/screencasts/ruby-on-rails) (screencasts)
+* [RailsCasts](http://railscasts.com)  (also available as [blog posts](http://asciicasts.com/))
+* [PeepCode](http://peepcode.com)
 
-Learning to code
-----------------
+### Classes & events in San Francisco
 
-* [Code.org](http://code.org/learn)
-* [Codecademy](http://www.codecademy.com/)
-* [Code School](https://www.codeschool.com/)
-* [Teach yourself to code](http://teachyourselftocode.com/)
-* [Tuts+](http://code.tutsplus.com/courses)
+* [San Francisco Ruby Meetups (we'd love to have you when you're in the area!)](http://www.meetup.com/sfruby/)
+* [RailsBridge Workshops organizing team](http://groups.google.com/group/railsbridge-workshops)
+* [Women Who Code meetup](http://www.meetup.com/Women-Who-Code-SF/) (monthly hack nights & speakers)
 
-More on Open Source
--------------------
+### Online
 
-* [Getting Involved with Open Source](http://addyosmani.com/blog/getting-involved-with-open-source/) (audio)
-* [Starting an Open Source Project](http://coding.smashingmagazine.com/2013/01/03/starting-open-source-project/)
-* [How the Heck do I use Git](http://lifehacker.com/5983680/how-the-heck-do-i-use-github)
-* [Git for Beginners](http://ryanflorence.com/git-for-beginners/)
+* [RailsBridge](http://railsbridge.org)
+* [DevChix](http://www.devchix.com) -blog and mailing list for women developers
+* [Stack Overflow](http://stackoverflow.com/)  -for answers to programming questions
+* [Apprenticeship Patterns](http://apprenticeship-patterns.labs.oreilly.com/)   -advice for aspiring programmers
 
-Being a developer
------------------
+### Get experience
 
-* [StackOverflow](http://www.stackoverflow.com/)
-* [RailsForum](http://www.railsforum.com/)
-* [You've Decided to become a Software Developer now what?](http://www.wibit.net/blog/youve_decided_become_software_developer_now_what)
-* [Advice on getting a software job](http://lesswrong.com/lw/di2/advice_on_getting_a_software_job/)
+* Just do it. Write and publish your own Rails app.
+* Volunteer at the next workshop
+* Volunteer on a RailsBridge Builders project
+* Come to a hack session
 
+### Meetups and User Groups outside of San Francisco
 
-Meetups and User Groups
------------------------
+* Boulder Ruby (monthly events): http://boulderruby.org/
+* DeRailed - Denver Rails UG: http://groups.google.com/group/derailed
+* Mountain.rb (Boulder, Colorado) http://mountainrb.com
+* Chicago Ruby (beginners welcome!) http://www.meetup.com/ChicagoRuby/
 
-* [RubySA](http://www.rubysa.co.za/)
-* [CapeTown Ruby Brigade](https://www.facebook.com/groups/116343568402300/)
-
+Check for Ruby and Rails meetups anywhere at [Ruby in Person](http://www.rubyinperson.com/)
