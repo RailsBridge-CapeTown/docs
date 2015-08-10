@@ -22,10 +22,10 @@ The command line as Zork. You are "in" a room (a directory) and can either act o
 * Advertise that the Friday night setup is **required**, send notes out 1 week ahead of time, so people can get started ahead of time
 * USB keys and/or DVDs with the big stuff like XCode
 * Ask the venue about bike policy (can participants bring bikes inside?) and communicate that to participants ahead of time.
-* Get a good night's sleep before the class, it is important to be well rested and fresh when teaching.
+* Get a good night's sleep before the class, it is important to be well rested and fresh when teaching or TA'ing.
 * Start with live coding - watch and type along, don't even use slides. make sure students & teachers irb prompts display line numbers, so we can say go to line 32
 * Go into IRB to practice basic concepts first, don't discuss what agile and a variable is in the abstract right away. Learning by doing first and talking later worked better.
 * At the very beginning, show a designed version of app so people can recognize it as finished product like other web sites they see: screenshots are on Sarah Allen's site.
-* Have teachers wear different badge colors so they can recognize each other.
+* Have TAs wear different badge colors so they can recognize each other.
 * Discuss rubyisms where appropriate. use code to show elegance & readability of ruby vs other languages: each vs (for i; i = "lame"; i ++)
 * Ask students to discuss what they learned, what they thought of it, at end of the day. As beginning of wrap-up session or just before it.
