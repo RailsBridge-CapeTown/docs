@@ -3,7 +3,7 @@ What other features do you want?
 
 Suggestions:
 
-* Profile pages for users (enter user's name or details, have it display alongside posts).
+* Profile pages for users (enter user’s name or details, have it display alongside posts).
 * Post/Comment history for individual users (on their profile page?).
 * Easy user profile pictures with [Gravatar](https://gravatar.com/).
 * Add login options with [Omniauth](https://github.com/intridea/omniauth), including Twitter, Facebook, Github, Google, and more.
