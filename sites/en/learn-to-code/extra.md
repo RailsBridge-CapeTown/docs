@@ -1,3 +1,5 @@
+<!-- next_step "next_steps" -->
+
 # Extra Fun Ruby Stuff
 
 We've gone over the basics, but Ruby has lots of other language features. Here's a quick overview, with links to more info about them.
@@ -13,4 +15,3 @@ We've gone over the basics, but Ruby has lots of other language features. Here's
 [Methods](http://codelikethis.com/lessons/ruby_objects/objects#behavior) and [Classes](http://codelikethis.com/lessons/ruby_objects/classes) are the heart of [Object-Oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming). They
 
 ## ...and [lots more](http://codelikethis.com/lessons)...
-

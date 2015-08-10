@@ -1,24 +1,8 @@
+<!-- next_step 'computers' -->
+
 # Learn To Code
 
 You may have never programmed before. Now you will.
-
-# Schedule
-
-9:00 introductions
-
-9:30 lecture
-
-10:45 - 11:00 mandatory break
-
-12:30 lunch
-
-1:30 class resumes
-
-3:00 - 3:30 stretch break & snacks & coffee
-
-4:30 discussion and next steps
-
-5:00 bye
 
 # What is coding?
 
@@ -35,7 +19,7 @@ You may have never programmed before. Now you will.
   * most coding happens in a team
   * pair programming is awesome
 
-<http://marthakelly.github.io/blog/2012/05/30/what-every-girl-needs-to-know-about-programming/>
+<http://women2.com/2012/09/04/linda-liukas-what-every-girl-needs-to-know-about-programming/>
 
 # What is coding?
 
@@ -66,14 +50,14 @@ Follow along at http://docs.railsbridge.org/learn-to-code
 # What if I know some of that already?
 
 * Pair up and fill in each other's gaps
-* Promote yourself to teacher
+* Promote yourself to TA
 
 ## And if you and your pair finish early...
 
 * Let us know!
 * Start working on Ruby For Programmers lessons
   * http://testfirst.org
-  * http://codelikethis.com/lessons/
+  * http://codelikethis.com/lessons
 * Build a Rails website
   * http://docs.railsbridge.org/
 
