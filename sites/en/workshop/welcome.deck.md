@@ -1,92 +1,104 @@
-<!SLIDE centereverything bullets>
-![Railsbridge](img/rails-bridge-cape-town-logo-large.png)
+!SLIDE centereverything bullets
+![Railsbridge](img/railsbridge_logo.png)
+# Ruby on Rails Workshop
 
 <!SLIDE bullets>
-# Schedule for the day
 
- * **09:00**-09:30: Breakfast
- * **09:30**-11:00: Opening presentation, introductions, **Workshop**
- * **11:00**-11:30: Break, Lightning Talk
- * **11:30**-13:00: **Workshop**
- * **13:00**-14:00: Lunch
- * **14:00**-15:00: **Workshop**
- * **15:00**-15:30: Break
- * **15:30**-18:00: **Workshop**
-
-<!SLIDE bullets>
-# Our awesome sponsors
-![KRS](img/KRS.jpg)
-![Hetzner](img/hetzner-logo.png)
-![PragmaticProgrammer](img/pragprog-logo.png)
-![Pluralsight](img/pluralsight-fullcolor-175x39-v3.png)
-
-<!SLIDE bullets>
 # Open source workshop
 
-### Community project
-### Documentation and slides can be edited by anyone
-### https://github.com/RailsBridge-CapeTown
+* It's a community project!
+  * Many individuals
+  * RailsBridge
+  * DevChix
 
-<!SLIDE bullets>
-# Survey
+* All materials are open!
+  * RailsBridge wiki
+  * Slides: github, deck
+  * See <http://github.com/railsbridge>
 
-### We want to make it more betterer
-### Make notes as you go along
-#### Some things we've added: extra credit; diagrams; sponsors; breaks; overview; glossary; resources page; lightning talks	
-
+* Spin-off Workshops
+  * RailsGirls, PyStar, Python Ladies, Scala
+  * Learn the Front End, Confident Coding JS, and...?
 
 <!SLIDE bullets>
 # Why are we here?
-
-### Diversity in Cape Town tech
-### Programming skills: useful, empowering, fun
-#### &nbsp; (Especially on the web)
-
+We want the community of software developers to reflect the diversity of our society
 
 <!SLIDE bullets>
-# Goal of the day
-### Build and publish a web application
-#### &nbsp; (In our case, a voting system)
-### On the internetz!
+# Why are we here?
+* Ruby on Rails!
 
+<!SLIDE bullets>
+# What is Ruby on Rails?
 
-<!SLIDE center>
-# What will you learn today?
+!SLIDE center
+# Ruby vs. Rails
 
-|Ruby|Rails|Git|Heroku|
-|---|---|---|---|
-|A programming Language|A Framework: patterns for building web apps|A source control system|A hosting platform|
-| <img src="img/ruby-logo.jpg" alt="Ruby" width="250"> | <img src="img/rails_logo.jpg" alt="Rails" width="250"> | <img src="img/git-icon.png" alt="Git" width="250"> | <img src="img/heroku-logo.png" alt="Heroku"  width="250" > |
+|Ruby is a Language | Rails is a Framework |
+|----|-----|
+| <img src="img/ruby-logo.jpg" alt="Ruby" width="250"> | <img src="img/rails_logo.jpg" alt="Rails" width="250"> |
 
-<!SLIDE center>
-# How do these fit together?
+<!SLIDE bullets>
+# Ruby: programming language
 
-|Ruby, Rails|Git|Heroku|
-|---|---|---|
-|Code|Save|Publish|
-| <img src="img/fit-together-ruby-rails.png" alt="Ruby, Rails" width="250"> | <img src="img/fit-together-git.png" alt="Git" width="250"> | <img src="img/fit-together-heroku.png" alt="Heroku" width="250"> |
+* Object oriented
+* General purpose
 
-<!SLIDE center>
-# How does your set up work?
+<!SLIDE bullets>
+# Rails: web application framework
 
-|Text Editor|Command Prompt / Terminal|Browser|
-|---|---|---|
-|Write Code|Issue Commands|See the Results|
-| <img src="img/set-up-text-editor.png" alt="Sublime Text" width="250"> | <img src="img/set-up-terminal.png" alt="Terminal" width="250"> | <img src="img/set-up-browser.png" alt="Browser" width="250"> |
+* Database agnostic
+* Built using the Ruby Language
+* History
+  * 37signals
+  * 2004 - first released as open source
+  * 2007 - shipped with Mac OS 10.5 "Leopard"
 
-<!SLIDE>
+<!SLIDE bullets>
 # The Rails Philosophy
 
-### Opinionated
-### Convention over configuration
-### Minimal code - maximal effect
+* Opinionated
+* Convention over configuration
+* DRY (Don't Repeat Yourself)
+  * less code means it's easier to maintain & modify
+* Test Driven Development (TDD)
+* Minimal code - maximal effect
 
-<!SLIDE>
-# After today?
+<!SLIDE bullets>
+# Agile development
 
-### [rbcpt.org/resources](http://rbcpt.org/resources/)
-### Learn more about coding, Ruby, or Rails
-### Do another RailsBridge
-### Become a developer? :)
+![Agile Manifesto](img/agile.jpg)
 
-# [rbcpt.org/start](http://rbcpt.org/start/)
+* Pair programming
+* Test-driven or Behavior-driven development
+
+<!SLIDE bullets>
+# Goal:
+### &nbsp;
+### By the end of the day, you will have built and deployed a web application - live on the internet!
+
+<!SLIDE bullets>
+# Don't be shy!
+* Ask questions!
+* TAs and teachers are here to help
+
+<!SLIDE bullets>
+# Tools we'll be working with
+* **rails**
+* **rake**: like make for Ruby. An easy way to run tasks.
+* **git**: source code control.
+* **database**: we'll use SQLite, but could be any relational database.
+* **editor**: Sublime Text 2
+* **heroku**: free Rails hosting.
+
+<!SLIDE bullets>
+# Materials
+* Slides: <http://curriculum.railsbridge.org/workshop>
+* Suggestotron Curriculum: <http://curriculum.railsbridge.org/>
+
+<!SLIDE bullets>
+# What will you learn today?
+* Ruby
+  * understanding the Ruby programming language
+* Rails
+  * learn tools and patterns for building web apps in Ruby on Rails
