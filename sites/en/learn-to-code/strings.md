@@ -1,3 +1,5 @@
+<!-- next_step 'numbers' -->
+
 # String Messages
 
 A string understands lots of messages. Here are a few:
@@ -40,17 +42,4 @@ Definitely try these out in irb! It's pretty fun.
 * How many characters long is your name?
 * What does your name look like, repeated 1000 times?
 * What is the tenth character of "Matz is nice"? (Trick question!)
-
-# Interpolation
-
-    first = "Joe"
-    last = "Smith"
-    
-`+` does *concatenation*
-    
-    full = first + " " + last
-
-`#{}` does *interpolation*
-
-    full = "#{first} #{last}"
 
