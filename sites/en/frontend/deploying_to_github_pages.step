@@ -6,7 +6,7 @@ h2 do
   span "."
 end
 
-important "If you have _any_ problems with these steps, grab a teacher and have them help you out."
+important "If you have _any_ problems with these steps, grab a TA and have them help you out."
 important "If you don't know if you have Git installed or have a GitHub account, it's probably better to develop locally (and not do these steps for now) and install Git later."
 
 a :name => 'first-time'
@@ -62,7 +62,7 @@ situation "First-time setup" do
       message "Now, push the new file you just committed to Github."
       console 'git push -u origin master'
       message "You'll probably be prompted to type your Github password at this point. After you do, you'll have just pushed your project to Github's servers!"
-      important "If you have existing content in your Github pages repo, this command will fail, and you will have to do a `git push -uf origin master` instead. Verify with a teacher first that you're doing the right thing."
+      important "If you have existing content in your Github pages repo, this command will fail, and you will have to do a `git push -uf origin master` instead. Verify with a TA first that you're doing the right thing."
     end
 
     step do
